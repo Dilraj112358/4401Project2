@@ -1,1 +1,4 @@
 application_train.csv
+nn1_artifacts/
+.nn1_work/
+__pycache__/

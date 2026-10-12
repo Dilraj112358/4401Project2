@@ -2,3 +2,11 @@ application_train.csv
 nn1_artifacts/
 .nn1_work/
 __pycache__/
+application_test.csv
+bureau_balance.csv
+bureau.csv
+credit_card_balance.csv
+HomeCredit_columns_description.csv
+installments_payments.csv
+POS_CASH_balance.csv
+history_feature_artifacts/additional_data_features.csv

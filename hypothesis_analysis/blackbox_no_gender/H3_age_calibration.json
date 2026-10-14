@@ -1,0 +1,62 @@
+[
+  {
+    "group":"Under 30",
+    "n":8900,
+    "events":1007,
+    "mean_prediction":0.0961591439,
+    "observed_rate":0.1131460674,
+    "calibration_gap":-0.0169869235,
+    "gap_lower":-0.0232886092,
+    "gap_upper":-0.0106852379,
+    "false_positive_rate":0.2498416318,
+    "recall":0.5809334657,
+    "negatives":7893,
+    "false_positives":1972,
+    "small_group":false
+  },
+  {
+    "group":"30 to under 45",
+    "n":24675,
+    "events":2246,
+    "mean_prediction":0.0718407184,
+    "observed_rate":0.0910233029,
+    "calibration_gap":-0.0191825845,
+    "gap_lower":-0.0226235976,
+    "gap_upper":-0.0157415714,
+    "false_positive_rate":0.1520798966,
+    "recall":0.4652715939,
+    "negatives":22429,
+    "false_positives":3411,
+    "small_group":false
+  },
+  {
+    "group":"45 to under 60",
+    "n":20531,
+    "events":1340,
+    "mean_prediction":0.0562711098,
+    "observed_rate":0.065267157,
+    "calibration_gap":-0.0089960472,
+    "gap_lower":-0.0122823204,
+    "gap_upper":-0.005709774,
+    "false_positive_rate":0.0940545047,
+    "recall":0.3358208955,
+    "negatives":19191,
+    "false_positives":1805,
+    "small_group":false
+  },
+  {
+    "group":"60 and older",
+    "n":6896,
+    "events":332,
+    "mean_prediction":0.0349789787,
+    "observed_rate":0.0481438515,
+    "calibration_gap":-0.0131648728,
+    "gap_lower":-0.0181380461,
+    "gap_upper":-0.0081916996,
+    "false_positive_rate":0.0281840341,
+    "recall":0.1475903614,
+    "negatives":6564,
+    "false_positives":185,
+    "small_group":false
+  }
+]

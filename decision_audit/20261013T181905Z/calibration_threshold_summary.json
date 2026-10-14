@@ -1,0 +1,26 @@
+{
+  "model_run": "model_runs/application_no_gender_weight_decay_20261013T064129748622Z",
+  "current_threshold": 0.121,
+  "current": {
+    "f1": 0.2951410549663825,
+    "precision": 0.22405809303304566,
+    "recall": 0.43228426395939085,
+    "fpr": 0.13147992938281292
+  },
+  "exact_threshold": 0.1212775335,
+  "exact": {
+    "f1": 0.2952050034746352,
+    "precision": 0.22440570522979397,
+    "recall": 0.43126903553299495,
+    "fpr": 0.13090928544679636
+  },
+  "transferred_threshold_f1": 0.2944084673769236,
+  "raw_brier": 0.06886595571545787,
+  "calibrated_oof_brier": 0.06863858009508385,
+  "raw_logloss": 0.2523861332350908,
+  "calibrated_oof_logloss": 0.24990279249753555,
+  "mean_prediction": 0.06598149731162094,
+  "calibrated_oof_mean": 0.0807826372448421,
+  "observed_rate": 0.08073505786695519,
+  "calibration_scope": "Cross-fitted within previously used blackbox; conditional exploratory evidence, no final calibrator fitted."
+}

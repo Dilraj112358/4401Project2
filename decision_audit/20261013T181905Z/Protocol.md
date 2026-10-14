@@ -1,0 +1,13 @@
+# Decision audit protocol
+
+October 13, 2026. Preserve the application-only scope and gender exclusion. These are explicit scope/feature constraints, not claims of maximum predictive performance or legal compliance. Fit only on existing training rows; checkpoint by existing blackbox AUC; no candidate test or eyeball evaluation. Same seeds 42,43,44 for each candidate. Same 15 epochs, Adam .001, batch 256, train-only preprocessing.
+
+Candidates: current 64/32 weight decay .0001; remove direct age; no weight decay; small 32; wide 128/64; deep 64/32/16; explicit credit/income and annuity/income ratios; external score difference, product and absolute difference (missing retained). No feature cutoffs derived from blackbox outcomes.
+
+Model decision: AUC remains the optimizing metric. A switch for performance requires mean paired AUC gain >=.001 and improvement in all three seeds; report smaller changes without claiming a reliable upgrade. F1 reduction >.005 or matched-overall-FPR recall reduction >1 percentage point triggers a tradeoff review, not automatic adoption. Fairness gaps and identified subgroup FPR/FNR are reported at both F1 cutoffs and matched FPR. Do not invent a legal or acceptable absolute disparity tolerance. Age removal is also assessed as a sensitive-feature design choice, not selected solely on AUC; separate that recommendation from the automatic performance criterion. No guarantee of global optimum.
+
+Probability calibration: fixed 5-fold stratified cross-fitting on blackbox saved baseline probabilities. Fit sigmoid/logit calibration on four folds and evaluate Brier score, log loss, mean residual on the held-out fold. This is exploratory because checkpoint selected on the whole blackbox earlier. Assess monotonic calibration as a probability-quality follow-up, not evidence of improved rank discrimination or a classification fix. Never fit a calibrator on test or eyeball data.
+
+Threshold check: compare current .001-grid F1 cutoff against exact blackbox PR-curve best F1; report five-fold threshold transfer (fit cutoff on four blackbox folds, evaluate other fold). F1 remains project operating proxy; business error costs are unspecified. A microscopic in-sample maximum is not a reason to replace a stable grid cutoff.
+
+Structural audit: verify IDs/splits, gender exclusion, feature-list coverage, finite transforms, training-only imputation/scaling, sentinel handling, raw data quality, and source lineage. Previous-application split is a hypothetical new-client deployment test; train/dev use prior-history clients and test uses no prior record. Choice of split is not selected by AUC. All comparative model evidence must identify its training configuration.

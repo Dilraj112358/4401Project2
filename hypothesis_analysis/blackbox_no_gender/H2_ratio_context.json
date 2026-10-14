@@ -1,0 +1,32 @@
+[
+  {
+    "group":"Credit\/income <= 4",
+    "n":37586,
+    "events":3089,
+    "mean_prediction":0.066750601,
+    "observed_rate":0.0821848561,
+    "calibration_gap":-0.015434255,
+    "gap_lower":-0.0181020246,
+    "gap_upper":-0.0127664855,
+    "false_positive_rate":0.1362147433,
+    "recall":0.4412431208,
+    "negatives":34497,
+    "false_positives":4699,
+    "small_group":false
+  },
+  {
+    "group":"Credit\/income > 4",
+    "n":23416,
+    "events":1836,
+    "mean_prediction":0.0647469768,
+    "observed_rate":0.0784079262,
+    "calibration_gap":-0.0136609494,
+    "gap_lower":-0.0169779954,
+    "gap_upper":-0.0103439035,
+    "false_positive_rate":0.1239110287,
+    "recall":0.417211329,
+    "negatives":21580,
+    "false_positives":2674,
+    "small_group":false
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"false_positive_rate",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"F",
+    "highest_group":"M",
+    "minimum":0.1074884029,
+    "maximum":0.1659667216,
+    "gap_pp":5.8478318683
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"recall",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"F",
+    "highest_group":"M",
+    "minimum":0.3899858956,
+    "maximum":0.4894316581,
+    "gap_pp":9.9445762428
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"precision",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"F",
+    "highest_group":"M",
+    "minimum":0.2142995543,
+    "maximum":0.2502401537,
+    "gap_pp":3.5940599348
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"npv",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.9352050548,
+    "maximum":0.9511299435,
+    "gap_pp":1.5924888663
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"favorable_prediction_rate",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.8011461318,
+    "maximum":0.8727595473,
+    "gap_pp":7.1613415543
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"specificity",
+    "eligible_groups":2,
+    "excluded_groups":"XNA",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.8340332784,
+    "maximum":0.8925115971,
+    "gap_pp":5.8478318683
+  },
+  {
+    "attribute":"age_group",
+    "metric":"false_positive_rate",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"60 and older",
+    "highest_group":"Under 30",
+    "minimum":0.0289727831,
+    "maximum":0.2392707938,
+    "gap_pp":21.0298010628
+  },
+  {
+    "attribute":"age_group",
+    "metric":"recall",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"60 and older",
+    "highest_group":"Under 30",
+    "minimum":0.1288515406,
+    "maximum":0.5536779324,
+    "gap_pp":42.4826391789
+  },
+  {
+    "attribute":"age_group",
+    "metric":"precision",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"60 and older",
+    "highest_group":"30 to under 45",
+    "minimum":0.1885245902,
+    "maximum":0.2352941176,
+    "gap_pp":4.6769527483
+  },
+  {
+    "attribute":"age_group",
+    "metric":"npv",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"60 and older",
+    "minimum":0.9304738309,
+    "maximum":0.9552324744,
+    "gap_pp":2.4758643542
+  },
+  {
+    "attribute":"age_group",
+    "metric":"favorable_prediction_rate",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"60 and older",
+    "minimum":0.7252105559,
+    "maximum":0.966068697,
+    "gap_pp":24.0858141115
+  },
+  {
+    "attribute":"age_group",
+    "metric":"specificity",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"60 and older",
+    "minimum":0.7607292062,
+    "maximum":0.9710272169,
+    "gap_pp":21.0298010628
+  }
+]

@@ -1,0 +1,1 @@
+October14 final-model recheck: reuse the nine previously recorded hypothesis definitions unchanged on the same blackbox population. No new outcome-driven cutoff search. Descriptive intervals condition on model selection and do not correct repeated development or multiple comparisons. Selection frozen at seed42 epoch23 threshold0.167 before final eyeball/test scoring.

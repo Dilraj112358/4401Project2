@@ -1,0 +1,30 @@
+[
+  {
+    "band_width":0.2,
+    "strata_retained":105,
+    "eligible_negatives":56077,
+    "retained_negatives":54720,
+    "coverage":0.9758011306,
+    "coverage_low_ratio":0.9728672058,
+    "coverage_high_ratio":0.9804911956,
+    "fpr_low_ratio":0.1031794918,
+    "fpr_high_ratio":0.0989285467,
+    "adjusted_fpr_difference":-0.0042509451,
+    "difference_lower":-0.0084970836,
+    "difference_upper":-0.0000048067
+  },
+  {
+    "band_width":0.1,
+    "strata_retained":222,
+    "eligible_negatives":56077,
+    "retained_negatives":45769,
+    "coverage":0.8161813221,
+    "coverage_low_ratio":0.8026205177,
+    "coverage_high_ratio":0.8378591288,
+    "fpr_low_ratio":0.0854859996,
+    "fpr_high_ratio":0.077691458,
+    "adjusted_fpr_difference":-0.0077945416,
+    "difference_lower":-0.0119301623,
+    "difference_upper":-0.0036589209
+  }
+]

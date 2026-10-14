@@ -1,0 +1,90 @@
+[
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"false_positive_rate",
+    "eligible_groups":2,
+    "excluded_groups":"",
+    "lowest_group":"F",
+    "highest_group":"M",
+    "minimum":0.1067961165,
+    "maximum":0.1324503311,
+    "gap_pp":2.5654214621
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"npv",
+    "eligible_groups":2,
+    "excluded_groups":"",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.9290780142,
+    "maximum":0.9387755102,
+    "gap_pp":0.969749602
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"favorable_prediction_rate",
+    "eligible_groups":2,
+    "excluded_groups":"",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.8493975904,
+    "maximum":0.880239521,
+    "gap_pp":3.0841930597
+  },
+  {
+    "attribute":"CODE_GENDER",
+    "metric":"specificity",
+    "eligible_groups":2,
+    "excluded_groups":"",
+    "lowest_group":"M",
+    "highest_group":"F",
+    "minimum":0.8675496689,
+    "maximum":0.8932038835,
+    "gap_pp":2.5654214621
+  },
+  {
+    "attribute":"age_group",
+    "metric":"false_positive_rate",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"60 and older",
+    "highest_group":"Under 30",
+    "minimum":0.0384615385,
+    "maximum":0.2615384615,
+    "gap_pp":22.3076923077
+  },
+  {
+    "attribute":"age_group",
+    "metric":"npv",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"30 to under 45",
+    "minimum":0.8888888889,
+    "maximum":0.9487179487,
+    "gap_pp":5.9829059829
+  },
+  {
+    "attribute":"age_group",
+    "metric":"favorable_prediction_rate",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"60 and older",
+    "minimum":0.75,
+    "maximum":0.9642857143,
+    "gap_pp":21.4285714286
+  },
+  {
+    "attribute":"age_group",
+    "metric":"specificity",
+    "eligible_groups":4,
+    "excluded_groups":"",
+    "lowest_group":"Under 30",
+    "highest_group":"60 and older",
+    "minimum":0.7384615385,
+    "maximum":0.9615384615,
+    "gap_pp":22.3076923077
+  }
+]

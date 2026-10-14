@@ -1,6 +1,0 @@
-pattern,eligible_records,errors,error_rate
-Older high-score actual difficulty,12,11,0.9166666666666666
-Younger low-score actual no difficulty,13,7,0.5384615384615384
-Any external score missing,324,57,0.17592592592592593
-All external scores present,176,38,0.2159090909090909
-Within 0.02 of threshold,43,20,0.46511627906976744
